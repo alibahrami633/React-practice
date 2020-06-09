@@ -1,8 +1,17 @@
 import React from "react";
-import HelloReact from "./components/HelloReact";
+import Header from "./components/Header";
+import Section from "./components/Section";
+
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <HelloReact />;
+  return (
+    <>
+      <Navbar />
+      <Header />
+      <Section />
+    </>
+  );
 }
 
 export default App;
